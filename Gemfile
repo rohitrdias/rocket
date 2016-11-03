@@ -28,7 +28,7 @@ gem 'font-awesome-sass', '~> 4.6.2'
 
 group :production do
 gem 'pg'
-gem 'unicorn'
+
 end
 
 group :development do
