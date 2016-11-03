@@ -38,7 +38,7 @@ end
 gem 'mailgunner', '~> 2.4'
 gem 'bootstrap-validator-rails'
 gem 'leaflet-rails'
-
+gem 'puma'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
