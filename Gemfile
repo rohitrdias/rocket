@@ -26,7 +26,14 @@ gem 'bootstrap', '~> 4.0.0.alpha4'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'font-awesome-sass', '~> 4.6.2'
+
+group :production do
 gem 'pg'
+end
+group :development do
+gem 'pg'
+end
+
 gem 'mailgunner', '~> 2.4'
 gem 'bootstrap-validator-rails'
 gem 'leaflet-rails'
